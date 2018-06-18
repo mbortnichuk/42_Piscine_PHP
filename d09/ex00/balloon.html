@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		#balloon {
+			width: 200px;
+			height: 200px;
+			background-color: red;
+			border-radius: 50%;
+		}
+	</style>
+	<script type="text/javascript">
+		var size = 200;
+		var num = 0;
+		var color = ["red", "green", "blue"];
+
+		window.onload = function() {
+			document.getElementById('balloon').addEventListener('click', resize);
+			document.getElementById('balloon'). addEventListener('mouseout', mouseleave);
+		}
+
+		function resize() {
+			if (size > 420) {
+				size = 200;
+			} else {
+				size = size + 10;
+			}
+			if (num < 2) {
+				num++;
+			} else {
+				num = 0;
+			}
+			document.getElementById('balloon').style.width = size + 'px';
+			document.getElementById('balloon').style.height = size + 'px';
+			document.getElementById('balloon').style.backgroundColor = color[num];
+		}
+		function mouseleave() {
+			if (size > 200) {
+				size = size - 5;
+			}
+			if (num > 0) {
+				num--;
+			} else {
+				num = 2;
+			}
+			document.getElementById('balloon').style.width = size + 'px';
+			document.getElementById('balloon').style.height = size + 'px';
+			document.getElementById('balloon').style.backgroundColor = color[num];
+		}
+	</script>
+</head>
+<body>
+	<div id="balloon"></div>
+</body>
+</html>

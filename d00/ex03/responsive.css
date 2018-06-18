@@ -1,0 +1,99 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    responsive.css                                     :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mbortnic <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/04/01 16:14:05 by mbortnic          #+#    #+#              #
+#    Updated: 2018/04/01 16:14:07 by mbortnic         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+body {
+	/*width: 100%;*/
+	font-family: "Arial";
+	font-size: 1.4vw;
+}
+table {
+	font-family: "Arial";
+	width: 100%;
+	table-layout: fixed;
+	border: 0.1vw solid black;
+	border-spacing: 0.3vw;
+	font-size: 1.4vw;
+}
+div {
+	text-align: center;
+}
+h1 {
+	text-align: center;
+	font-size: 3vw;
+}
+h2 {
+	text-align: center;
+	margin: 0px;
+}
+p {
+	margin: 5px;
+	font-size: 1.4vw;
+}
+p.mass {
+	text-align: right;
+	margin: 0px;
+}
+p.num {
+	margin: 0px;
+}
+tr {
+	font-size: 1.4vw;
+	min-width: 100px;
+}
+td {
+	min-width: 100px;
+	font-size: 1.4vw;
+}
+td.diatomic {
+	background: linear-gradient(to bottom right, #FF8C00, #FFD700);
+	border: 0.1vw solid black;
+}
+td.noble-gas {
+	background: linear-gradient(to bottom right, #4169E1, #87CEEB);
+	border: 0.1vw solid black;
+}
+td.alkali-metal {
+	background: linear-gradient(to bottom right, #8B0000, #FF0000);
+	border: 0.1vw solid black;
+}
+td.alkain-earth {
+	background: linear-gradient(to bottom right, #CD853F, #D2B48C);
+	border: 0.1vw solid black;
+}
+td.transition {
+	background: linear-gradient(to bottom right, #FA8072, #FFC0CB);
+	border: 0.1vw solid black;
+}
+td.post-transition {
+	background: linear-gradient(to bottom right, #696969, #FFFAF0);
+	border: 0.1vw solid black;
+}
+td.metalloid {
+	background: linear-gradient(to bottom right, #808000, #9ACD32);
+	border: 0.1vw solid black;
+}
+td.polyatomic {
+	background: linear-gradient(to bottom right, #8FBC8F, #00FF7F);
+	border: 0.1vw solid black;
+}
+td.lanthanide {
+	background: linear-gradient(to bottom right, #FF69B4, #FFC0CB);
+	border: 0.1vw solid black;
+}
+td.actinide {
+	background: linear-gradient(to bottom right, #663399, #DDA0DD);
+	border: 0.1vw solid black;
+}
+td.unknown {
+	background: linear-gradient(to bottom right, #BC8F8F, #EEE8AA);
+	border: 0.1vw solid black;
+}

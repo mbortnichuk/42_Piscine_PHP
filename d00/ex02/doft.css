@@ -1,0 +1,113 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    doft.css                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mbortnic <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/03/31 13:43:51 by mbortnic          #+#    #+#              #
+#    Updated: 2018/03/31 13:43:55 by mbortnic         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+body {
+	background-color: #505050;
+}
+header, nav, section, aside, .green_form {
+	background-color: #909090;
+	box-shadow: 12px 12px 5px #252424;
+	border: 10px solid #909090;
+	border-radius: 10px;
+}
+header {
+	margin-top: 20px;
+	height: 120px;
+	width: 1500px;
+}
+nav {
+	float: left;
+	margin-top: 20px;
+	margin-left: 40px;
+	height: 415px;
+	width: 130px;
+}
+section {
+	float: left;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+aside {
+	float: left;
+	margin-top: 20px;
+	margin-left: 40px;
+	width: 140px;
+	height: 415px;
+}
+nav img, aside img, .brick {
+	margin: auto;
+	display: block;
+	margin-top: 9px;
+	width: 70px;
+}
+.page {
+	margin: 0 auto;
+	width: 1525px;
+}
+.brick {
+	background-image: url("resources/brick.jpg");
+	width: 130px;
+	height: 70px;
+}
+img[title="doft"] {
+	float: left;
+	width: 450px;
+}
+img[title="search"] {
+	position: relative;
+	left: 770px;
+	top: 5px;
+}
+img[title="Start from the beginning"] {
+	float: right;
+	width: 20px;
+}
+img[title="Disconnect"] {
+	position: relative;
+	left: 770px;
+	bottom: 20px;
+}
+img[title="Look"] {
+	border: solid red 5px;
+	border-radius: 5px;
+}
+.green_form {
+	background-color: #88ff89;
+	border: 1px solid black;
+	position: absolute;
+	width: 485px;
+	height: 130px;
+	top: 700px;
+	padding: 15px;
+	padding-top: 10px;
+	font-family: Verdana;
+}
+strong {
+	font-family: Georgia;
+	font-weight: lighter;
+	font-size: 185%;
+}
+.shadow {
+	text-shadow: 8px 5px 4px rgba(255, 0, 0, 1);
+}
+.button {
+	background: linear-gradient(#f4eff3, #dcdcdc);
+	letter-spacing: 0.5px;
+	height: 22px;
+	margin-left: 4px;
+	border-radius: 2px;
+	border: 1px solid #a8a4a5;
+}
+input[type="text"] {
+	width: 365px;
+	border-top: 2px solid #9a9b9c;
+}
